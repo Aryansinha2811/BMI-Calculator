@@ -8,7 +8,7 @@
 /* Targeting Body  */
 body{
     min-height: 100vh;
-    background-image: url(/background.jpg);
+    background-image: url("https://raw.githubusercontent.com/Aryansinha2811/BMI-Calculator/master/background.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
