@@ -1,0 +1,132 @@
+/* Root Settings  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Targeting Body  */
+body{
+    min-height: 100vh;
+    background-image: url(/background.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* At First I maded a Navbar but I Deleted it for some Reason  */
+
+/* Targeting Header File  */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    padding: 30px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Targeting Logo Image  */
+#Img{
+    width: 70px;
+    height: 70px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+
+/* Targeting the Card Body  */
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(15px); 
+    border-radius: 80px;
+    overflow: hidden;
+    width: 420px;
+    height: 500px;
+    top: 28px;
+    left: 10px;
+}
+
+/* Card Content Goes Here  */
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.BMI{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Form Goes Here  */
+form {
+    font-weight: 300;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(0, 195, 255);
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(12 171 221);
+}
+
+/* Result Goes here  */
+#result{
+    width: 250px;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
