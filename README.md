@@ -1,4 +1,4 @@
-# This is Just a Mini Project 
+# This is a BMI Calculator Mini Project !!
 ## Check it Out !!
 
 
